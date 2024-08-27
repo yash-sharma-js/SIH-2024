@@ -9,9 +9,11 @@ function App() {
 
   return (
     <div className="  flex flex-col justify-center " >
+      
       <Navbar className='z-50' />
+      <div className='border border-gray-500'></div>
       <StatBoxes1/>
-      <Map/>
+      <Map className=''/>
       <StatBoxes2/>
       <HistoryNO2Component/>
       <AQIHeatMap/>
