@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar.jsx"
-import background from './assets/bg.jpg'
 import StatBoxes1 from "./components/statistics/StatBoxes1.jsx"
 import Map from "./components/Map.jsx"
 import StatBoxes2 from "./components/statistics/StatBoxes2.jsx"
+import AQIHeatMap from "./components/Aqi_Heat_Map.jsx"
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <StatBoxes1/>
       <Map/>
       <StatBoxes2/>
-      
+      <AQIHeatMap/>
     </div>
   )
 }
