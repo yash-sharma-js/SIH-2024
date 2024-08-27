@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="  flex flex-col justify-center " >
-      <Navbar />
+      <Navbar className='z-50' />
       <StatBoxes1/>
       <Map/>
       <StatBoxes2/>
