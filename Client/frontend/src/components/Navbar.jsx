@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="bg-transparent backdrop-blur-sm sticky top-0 left-0 right-0 z-50 flex justify-between items-center py-4 px-6">
+    <nav className=" bg-transparent backdrop-blur-sm sticky top-0 left-0 right-0 z-50 flex justify-between items-center py-4 px-6">
       <div className="text-gray-800 text-2xl font-semibold">Nitro</div>
       <ul className="flex space-x-4 ml-20  text-gray-800">
         
