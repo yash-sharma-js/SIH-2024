@@ -20,8 +20,8 @@ const getQualityIndex = (aqi) => {
 
 const HistoryNO2Component = () => {
   return (
-    <div className=" mx-10 bg-white border rounded-xl shadow-lg p-6 mt-8 mb-10">
-      <h2 className="text-2xl font-semibold text-blue-600">
+    <div className=" mx-10 bg-transparent backdrop-blur-md border border-gray-500 rounded-xl shadow-lg p-6 mt-8 mb-10">
+      <h2 className="text-2xl font-semibold text-gray-600">
         Historical NO2 Air Quality Data Of Metropolitan Cities
       </h2>
       <p className="text-sm text-gray-500 mb-4">

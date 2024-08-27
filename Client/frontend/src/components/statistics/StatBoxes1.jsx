@@ -6,7 +6,7 @@ const StatBoxes1 = () => {
         <div style={{background:'#ebe3e0'}} className='  backdrop-blur-md border border-black w-3/6 h-60 rounded-lg'>
         
         </div>
-        <div className='border border-black w-3/6 h-60 rounded-lg'></div>
+        <div style={{background:'#ebe3e0'}} className='border border-black w-3/6 h-60 rounded-lg'></div>
     </div>
   )
 }
