@@ -19,3 +19,7 @@ def get_data_by_city(city):
 
 def get_data_sorted_by_no2():
     return list(AQIRecord.objects.order_by('no2'))
+
+
+
+

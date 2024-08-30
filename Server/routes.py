@@ -29,3 +29,4 @@ def fetch_data():
 def fetch_data_sorted():
     data = get_data_sorted_by_no2()
     return jsonify([entry.to_json() for entry in data]), 200
+

@@ -1,14 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <>
     <nav className="bg-transparent backdrop-blur-sm sticky top-0 left-0 right-0 z-50 flex justify-between items-center py-4 px-6">
-      <div className="text-gray-800 text-2xl font-semibold">VAYU-MITRA</div>
+      <Link to='/'><div className="text-gray-800 text-2xl font-semibold">VAYU-MITRA</div></Link>
       <ul className="flex space-x-4 ml-20  text-gray-800">
         
-        <li className='hover:text-gray-400 cursor-pointer'>NO2 History</li>
-        <li className='hover:text-gray-400 cursor-pointer'>AQI MAP</li>
+        <li className='hover:text-gray-400 cursor-pointer'>
+          <Link to='/'>Home</Link> </li>
+        <li className='hover:text-gray-400 cursor-pointer'>
+          <Link to='history-no2'>NO2 History</Link> </li>
+        <li className='hover:text-gray-400 cursor-pointer'>
+        <Link to='aqi-heatmap'>AQI MAP</Link></li>
         <li className='hover:text-gray-400 cursor-pointer'>Contact US</li>
       </ul>
       <div className="relative border border-gray-400 px-2 py-1">

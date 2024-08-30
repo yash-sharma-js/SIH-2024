@@ -2,7 +2,7 @@ import React from 'react';
 
 const AQIHeatMap = () => {
   return (
-    <div className="mx-10 mb-10 flex items-center justify-between bg-transparent p-4 rounded-lg shadow-md border border-black ">
+    <div className="mx-10 mt-40 mb-10 flex items-center justify-between bg-transparent p-4 rounded-lg shadow-md border border-black ">
       <div className="flex flex-col items-start backdrop-blur-lg">
         <h2 className="text-xl font-bold">AQI Heat Map</h2>
         <div className="mt-2">

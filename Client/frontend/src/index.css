@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background: #c4f4f8;
-   
+html{
+background-color: aquamarine;
 }

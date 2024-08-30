@@ -49,7 +49,9 @@ const Map = () => {
 
           {/* Marker based on click position */}
           <Marker position={position}>
-            <Popup>You clicked here</Popup>
+            <Popup>You clicked here : 
+{position[0] } , {position[1]}
+            </Popup>
           </Marker>
 
           {/* Display StatBoxes1 component with updated coordinates */}
