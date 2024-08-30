@@ -3,6 +3,7 @@ from routes import routes
 from config import init_db
 from flask_cors import CORS
 
+
 app = Flask(__name__)
 app.register_blueprint(routes)
 

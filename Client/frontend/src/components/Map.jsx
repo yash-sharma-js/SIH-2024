@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
 import {
   MapContainer,
@@ -7,7 +7,7 @@ import {
   Popup,
   useMapEvents,
 } from "react-leaflet";
-import StatBoxes1 from "./statistics/StatBoxes1";
+
 
 // A component to handle map click events
 const MapClickHandler = ({ setPosition }) => {
@@ -20,7 +20,7 @@ const MapClickHandler = ({ setPosition }) => {
 };
 
 const Map = () => {
-  const [position, setPosition] = useState([19.076, 72.8777]); // Initial position (Mumbai)
+  const [position, setPosition] = useState([20.5937, 78.9629]); // Initial position (Mumbai)
 
   // Bounding box coordinates for India
   const indiaBounds = [
@@ -29,7 +29,7 @@ const Map = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center py-10 ">
+    <div className="flex justify-center items-center py-10 w-full ">
       <div className="w-full max-w-4xl rounded-lg shadow-lg overflow-hidden">
         <MapContainer
           className="border border-black rounded-lg m-10 mr-10"
@@ -37,25 +37,22 @@ const Map = () => {
           zoom={5}
           style={{
             height: "30rem",
-            width: "95%",
+            width: "100%",
           }}
           maxBounds={indiaBounds}
           maxBoundsViscosity={1.0} // Keeps the map from moving outside the bounds
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          
+
           {/* Add Map Click Handler */}
           <MapClickHandler setPosition={setPosition} />
 
           {/* Marker based on click position */}
           <Marker position={position}>
-            <Popup>You clicked here : 
-{position[0] } , {position[1]}
+            <Popup>
+              You clicked here :{position[0]} , {position[1]}
             </Popup>
           </Marker>
-
-          {/* Display StatBoxes1 component with updated coordinates */}
-          <StatBoxes1 latitude={position[0]} longitude={position[1]} />
         </MapContainer>
       </div>
     </div>

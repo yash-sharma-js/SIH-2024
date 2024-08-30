@@ -8,15 +8,19 @@ function Navbar() {
       <Link to='/'><div className="text-gray-800 text-2xl font-semibold">VAYU-MITRA</div></Link>
       <ul className="flex space-x-4 ml-20  text-gray-800">
         
-        <li className='hover:text-gray-400 cursor-pointer'>
+        <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
           <Link to='/'>Home</Link> </li>
-        <li className='hover:text-gray-400 cursor-pointer'>
+        <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
           <Link to='history-no2'>NO2 History</Link> </li>
-        <li className='hover:text-gray-400 cursor-pointer'>
+        <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
         <Link to='aqi-heatmap'>AQI MAP</Link></li>
-        <li className='hover:text-gray-400 cursor-pointer'>Contact US</li>
+        <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
+        <Link to='statistics'>Statistics</Link></li>
+        <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
+        <Link to='map'>Map</Link></li>
+        
       </ul>
-      <div className="relative border border-gray-400 px-2 py-1">
+      <div className="relative border border-gray-400 rounded-md  px-4 py-1">
         <input
           type="text"
           className="bg-transparent border-none text-gray-800 focus:outline-none  placeholder-gray-800"
@@ -24,7 +28,7 @@ function Navbar() {
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 absolute right-0 top-1/2 transform -translate-y-1/2"
+          className="h-6 w-6 absolute  right-0 top-1/2 transform -translate-y-1/2"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

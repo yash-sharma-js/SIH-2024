@@ -4,4 +4,8 @@
 
 html{
 background-color: aquamarine;
+background: url('./assets/imgbg2.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
