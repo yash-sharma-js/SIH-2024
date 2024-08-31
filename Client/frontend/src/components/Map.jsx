@@ -29,8 +29,8 @@ const Map = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center py-10 w-full ">
-      <div className="w-full max-w-4xl rounded-lg shadow-lg overflow-hidden">
+    <div className="flex justify-center items-center py-10  w-full ">
+      <div className="w-full max-w-4xl rounded-lg overflow-hidden">
         <MapContainer
           className="border border-black rounded-lg m-10 mr-10"
           center={position}

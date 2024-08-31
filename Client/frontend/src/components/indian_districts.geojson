@@ -1,0 +1,112 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "district": "Mumbai",
+          "state": "Maharashtra",
+          "id": "IN-MH-MUM",
+          "no2": 45 
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [72.7757, 19.0484],
+              [72.8231, 19.0440],
+              [72.8561, 19.0286],
+              [72.8333, 18.9873],
+              [72.7867, 18.9750],
+              [72.7757, 19.0484]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "district": "Pune",
+          "state": "Maharashtra",
+          "id": "IN-MH-PUN",
+          "no2": 35
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [73.8478, 18.5204],
+              [73.8855, 18.5280],
+              [73.9030, 18.5167],
+              [73.8811, 18.4714],
+              [73.8478, 18.5204]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "district": "Nagpur",
+          "state": "Maharashtra",
+          "id": "IN-MH-NAG",
+          "no2": 40 
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [79.0882, 21.1458],
+              [79.1000, 21.1500],
+              [79.1300, 21.1300],
+              [79.1200, 21.1100],
+              [79.0882, 21.1458]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "district": "Bengaluru",
+          "state": "Karnataka",
+          "id": "IN-KA-BLR",
+          "no2": 55 
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [77.5946, 12.9716],
+              [77.6100, 12.9800],
+              [77.6200, 12.9600],
+              [77.5900, 12.9500],
+              [77.5946, 12.9716]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "district": "Chennai",
+          "state": "Tamil Nadu",
+          "id": "IN-TN-CHN",
+          "no2": 60 
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [80.2707, 13.0827],
+              [80.2900, 13.1000],
+              [80.3100, 13.0800],
+              [80.2800, 13.0600],
+              [80.2707, 13.0827]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+  

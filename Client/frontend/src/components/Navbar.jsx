@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import projectLogo from '../assets/project_logo.svg'
 function Navbar() {
   return (
     <>
     <nav className="bg-transparent backdrop-blur-sm sticky top-0 left-0 right-0 z-50 flex justify-between items-center py-4 px-6">
-      <Link to='/'><div className="text-gray-800 text-2xl font-semibold">VAYU-MITRA</div></Link>
+      <Link to='/'>
+      <div className="text-gray-800 text-2xl border border-black p-2 font-semibold">VAYU-MITRA</div>
+      {/* <div className=''><img className='' src={projectLogo} alt="" /></div> */}
+      </Link>
       <ul className="flex space-x-4 ml-20  text-gray-800">
         
         <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
@@ -18,6 +21,8 @@ function Navbar() {
         <Link to='statistics'>Statistics</Link></li>
         <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
         <Link to='map'>Map</Link></li>
+        <li className='hover:text-gray-700 hover:font-bold text-lg cursor-pointer'>
+        <Link to='cmap'>ChloroMap</Link></li>
         
       </ul>
       <div className="relative border border-gray-400 rounded-md  px-4 py-1">

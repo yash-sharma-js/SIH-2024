@@ -12,13 +12,13 @@ def insert_data(city, no2, aqi, year, aqi_quality):
     return new_record
 
 def get_all_data():
-    return list(AQIRecord.objects)
+    return list(AQIRecord.objects.limit(5))
 
 def get_data_by_city(city):
-    return list(AQIRecord.objects(city=city))
+    return list(AQIRecord.objects(city=city).limit(5))
 
 def get_data_sorted_by_no2():
-    return list(AQIRecord.objects.order_by('no2'))
+    return list(AQIRecord.objects.order_by('no2').limit(5))
 
 
 

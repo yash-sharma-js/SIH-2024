@@ -1,0 +1,20 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    margin-top: -2rem;
+  }
+  
+  .leaflet-container {
+    height: 80vh; /* Restrict map height */
+    width: 80vw; /* Restrict map width */
+    max-width: 1200px; /* Optional: Max width for larger screens */
+    max-height: 800px; /* Optional: Max height for larger screens */
+    border: 2px solid #ccc; /* Optional: Border for better visualization */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for better visualization */
+    border-radius: 8px; /* Optional: Rounded corners */
+
+  }
+  
